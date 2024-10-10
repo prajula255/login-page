@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section1 {
+    height: 100dvh;
+    
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./image/ocean.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.login {
+    /* height: 100px; */
+   min-width: 30rem; 
+    /* display: flex; */
+    /* align-items: center; */
+    color: white;
+    /* justify-content: center; */
+    background-color: #00000096;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-text{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+label{
+    font-size: small;
+}
+input[type=checkbox]{
+    margin-right: 5px;
+}
+a{
+    color: #a68c7c;
+}
+button{
+    background-color: #fb5a2b;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+h1{
+    margin-bottom: 16px;
+}
+.mb-1{
+    margin-bottom: 0.5rem;
+}
+.btn-container{
+    display:flex;
+    justify-content: flex-start;
+    width: 100%;
+}
